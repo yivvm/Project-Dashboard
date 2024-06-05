@@ -1,4 +1,3 @@
-import React from 'react'
 import { Box, Typography, useTheme } from '@mui/material'
 import { DataGrid } from '@mui/x-data-grid'
 import { tokens } from '../../theme'
@@ -80,10 +79,23 @@ export default function Team() {
                 border: "none"
             },
             "& .MuiDataGrid-cell": {
+                borderTop: "none",
                 borderBottom: "none"
             },
             "& .name-column--cell": {
                 color: colors.greenAccent[300]
+            },
+            "& .MuiDataGrid-columnHeaders": {
+                backgroundColor: colors.blueAccent[700],
+                borderBottom: "none"
+            },
+            "& .MuiDataGrid-virtualScroller": {
+                backgroundColor: colors.primary[400]
+            },
+            
+            "& .MuiDataGrid-footerContainer": {
+                borderTop: "none",
+                backgroundColor: colors.blueAccent[700]
             }
         }}
       >
