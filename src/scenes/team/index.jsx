@@ -92,11 +92,13 @@ export default function Team() {
             "& .MuiDataGrid-virtualScroller": {
                 backgroundColor: colors.primary[400]
             },
-            
             "& .MuiDataGrid-footerContainer": {
                 borderTop: "none",
                 backgroundColor: colors.blueAccent[700]
-            }
+            },
+            "& .MuiCheckbox-root": {
+                color: `${colors.greenAccent[200]} !important`,
+            },
         }}
       >
         <DataGrid 
