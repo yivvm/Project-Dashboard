@@ -78,6 +78,12 @@ export default function Team() {
         sx={{
             "& .MuiDataGrid-root": {
                 border: "none"
+            },
+            "& .MuiDataGrid-cell": {
+                borderBottom: "none"
+            },
+            "& .name-column--cell": {
+                color: colors.greenAccent[300]
             }
         }}
       >
