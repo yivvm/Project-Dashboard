@@ -85,7 +85,7 @@ export default function Calendar() {
                 headerToolbar={{
                     left: "prev, next today",
                     center: "title",
-                    right: "dayGridMonth, timeGridWeek, timeGridDay, listMonth"
+                    right: "dayGridMonth,timeGridWeek,timeGridDay,listMonth"
                 }}
                 initialView='dayGridMonth'
                 editable={true}
@@ -97,7 +97,7 @@ export default function Calendar() {
                 eventsSet={(events) => setCurrentEvents(events)}
                 initialEvents={[
                     { id: '1234', title: 'Alll-day event', date: '2024-05-31' },
-                    { id: '4321', title: 'Timed event', date: '2024-06-03' },
+                    { id: '4321', title: 'Timed event', date: '2024-06-10' },
                 ]}
             />
 
