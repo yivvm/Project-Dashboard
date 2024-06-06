@@ -15,10 +15,75 @@ export default function FAQ() {
     <Box m='20px'>
         <Header title='FAQ' subtitle='Frequently Asked Question Page' />
 
-        <Accordion>
+        <Accordion defaultExpanded>
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography color={colors.greenAccent[500]} variant='h5'>
                     An Important question
+                </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+                <Typography>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quam incidunt exercitationem vel est qui iusto.
+                </Typography>
+            </AccordionDetails>
+        </Accordion>
+
+        <Accordion defaultExpanded>
+            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                <Typography color={colors.greenAccent[500]} variant='h5'>
+                    Another Important question
+                </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+                <Typography>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quam incidunt exercitationem vel est qui iusto.
+                </Typography>
+            </AccordionDetails>
+        </Accordion>
+
+        <Accordion defaultExpanded>
+            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                <Typography color={colors.greenAccent[500]} variant='h5'>
+                    Your favorite question
+                </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+                <Typography>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quam incidunt exercitationem vel est qui iusto.
+                </Typography>
+            </AccordionDetails>
+        </Accordion>
+
+        <Accordion defaultExpanded>
+            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                <Typography color={colors.greenAccent[500]} variant='h5'>
+                    Question for the dashboard
+                </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+                <Typography>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quam incidunt exercitationem vel est qui iusto.
+                </Typography>
+            </AccordionDetails>
+        </Accordion>
+
+        <Accordion defaultExpanded>
+            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                <Typography color={colors.greenAccent[500]} variant='h5'>
+                    Question on how to use the dashboard
+                </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+                <Typography>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quam incidunt exercitationem vel est qui iusto.
+                </Typography>
+            </AccordionDetails>
+        </Accordion>
+
+        <Accordion defaultExpanded>
+            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                <Typography color={colors.greenAccent[500]} variant='h5'>
+                    Question on how to build the dashboard
                 </Typography>
             </AccordionSummary>
             <AccordionDetails>
