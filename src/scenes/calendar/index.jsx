@@ -1,16 +1,17 @@
 import { useState } from 'react'
-import FullCalendar, { formatDate } from "@fullcalendar/react"
+import { formatDate } from '@fullcalendar/core'
+import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from '@fullcalendar/daygrid'
 import timeGridPlugin from '@fullcalendar/timegrid'
 import interactionPlugin from '@fullcalendar/interaction'
 import listPlugin from '@fullcalendar/list'
-import { Box, List, ListItem, ListItemText, MenuList, Typograpphy, useTheme } from '@mui/material'
+import { Box, List, ListItem, ListItemText, MenuList, Typography, useTheme } from '@mui/material'
 import Header from '../../components/Header'
 import { tokens } from '../../theme'
 
 export default function Calendar() {
     const theme = useTheme()
-    const colors = tokens(theme.colors.mode)
+    const colors = tokens(theme.palette.mode)
     const [currentEvents, setCurrentEvents] = useState([])
 
     const handleDateClick = (selected) => {
@@ -47,7 +48,7 @@ export default function Calendar() {
             p='15px'
             borderRadius={'4px'}
         >
-            <Typograpphy variant='h5'>Events</Typograpphy>
+            <Typography variant='h5'>Events</Typography>
             <List>
                 {currentEvents.map((event) => (
                     <ListItem
@@ -57,18 +58,49 @@ export default function Calendar() {
                         <ListItemText
                             primary={event.title}
                             secondary={
-                                <Typograpphy>
+                                <Typography>
                                     {formatDate(event.start, {
                                         year: 'numeric',
                                         month: 'short',
                                         day: 'numeric',
                                     })}
-                                </Typograpphy>
+                                </Typography>
                             }
                         />
                     </ListItem>
                 ))}
             </List>
+        </Box>
+        
+        {/* CALENDAR */}
+        <Box flex="1 1 100%" ml="15px">
+            <FullCalendar 
+                height="75vh"
+                plugins={[
+                    dayGridPlugin,
+                    timeGridPlugin,
+                    interactionPlugin,
+                    listPlugin
+                ]}
+                headerToolbar={{
+                    left: "prev, next today",
+                    center: "title",
+                    right: "dayGridMonth, timeGridWeek, timeGridDay, listMonth"
+                }}
+                initialView='dayGridMonth'
+                editable={true}
+                selectable={true}
+                selectMirror={true}
+                dayMaxEvents={true}
+                select={handleDateClick}
+                eventClick={handleEventClick}
+                eventsSet={(events) => setCurrentEvents(events)}
+                initialEvents={[
+                    { id: '1234', title: 'Alll-day event', date: '2024-05-31' },
+                    { id: '4321', title: 'Timed event', date: '2024-06-03' },
+                ]}
+            />
+
         </Box>
 
       </Box>
