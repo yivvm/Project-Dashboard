@@ -12,10 +12,11 @@ HTML | CSS | JavaScript | React | React Router | React Pro Sidebar | Material UI
 
 - Get an overview of all projects and tasks in one place.
 - **Project Management**: Create, edit, and manage multiple projects.
-- Every page can be switched between Light Mode and Dark Mode.
-- The sidebar can be collapsed.
+- Users can switch the page between Light Mode and Dark Mode.
+- The sidebar can be collapsed as needed.
 
 ![dashboard-dark](./screenshots/dashboard-dark.png)
+
 ![dashboard-light](./screenshots/dashboard-light.png)
 
 ### Team Page
@@ -24,92 +25,51 @@ HTML | CSS | JavaScript | React | React Router | React Pro Sidebar | Material UI
 
 ### Invoice Page
 
+- Users can sort each column on each page by ascending order or by descending order.
+- Users can hide the column(s).
+- Users can filter the contents for each column.
+- Users can manage the columns on each page.
+- Users can select the cost row on Invoice page.
+
 ![team-page](./screenshots/team.png)
 
-### :
+![contact-page](./screenshots/contact.png)
 
-- **Task Management**: Assign tasks to team members, set deadlines, and track progress.
-- **Collaboration**: Comment on tasks and projects, and communicate with team members.
-- **Notifications**: Receive notifications for task updates and deadlines.
+![invoice-page](./screenshots/invoice.png)
 
-### Installation Steps
+### Profile Form:
 
-1. Clone the repository
-   ```sh
-   git clone https://github.com/yivvm/Project-Dashboard.git
-   ```
+- Users can create a new user profile.
 
----
+![profile-form](./screenshots/profile)
 
-# Getting Started with Create React App
+### Calendar Page:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- **Monthly View, Weekly View, Daily View, List View**: Use the navigation buttons to switch and display tasks and milestones in a monthly, weekly, or daily calendar format, or list format.
+- **Daily View**: Focus on tasks and milestones for a specific day with time setting.
+- **Interactive**: Click on a date or a time slot to **add** a new task or milestone for that day; click on a task to **delete** that task.
+- **Calendar Library**: FullCalendar or similar library for calendar functionalities.
 
-## Available Scripts
+![calendar](./screenshots/calendar.png)
 
-In the project directory, you can run:
+![calendar-add](./screenshots/calendar-add.png)
 
-### `npm start`
+### FAQ Page:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![faq-page](./screenshots/faq.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Bar Chart Page:
 
-### `npm test`
+![bar-chart-page](./screenshots/bar.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Pie Chart Page:
 
-### `npm run build`
+![pie-chart-page](./screenshots/pie.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Line Chart Page:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![line-chart-page](./screenshots/line.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Geography Chart Page:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# Project-Dashboard
+![geography-chart-page](./screenshots/geo.png)
