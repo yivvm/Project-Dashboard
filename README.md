@@ -41,7 +41,7 @@ HTML | CSS | JavaScript | React | React Router | React Pro Sidebar | Material UI
 
 - Users can create a new user profile.
 
-![profile-form](./screenshots/profile)
+![profile-form](./screenshots/profile.png)
 
 ### Calendar Page:
 
