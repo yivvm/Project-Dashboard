@@ -1,3 +1,46 @@
+# React Admin Dashboard
+
+React Admin Dashboard is a COMPLETE web application designed to help teams manage their projects efficiently. It provides features for tracking project progress, managing tasks, and collaborating with team members. It was built using React, Material UI, Data Grid, Light & Dark Mode, formik, Bar Chart, Pie Chart, Line Chart, Geography Chart, and more.
+
+## Technologies Used
+
+HTML | CSS | JavaScript | React | React Router | React Pro Sidebar | Material UI | Data Grid | formik | full calendar | yup validation | nivo charts (Bar Chart, Pie Chart, Line Chart, Geography Chart)
+
+## Features
+
+### Dashboard:
+
+- Get an overview of all projects and tasks in one place.
+- **Project Management**: Create, edit, and manage multiple projects.
+- Every page can be switched between Light Mode and Dark Mode.
+- The sidebar can be collapsed.
+
+![dashboard-dark](./screenshots/dashboard-dark.png)
+![dashboard-light](./screenshots/dashboard-light.png)
+
+### Team Page
+
+### Contact Page
+
+### Invoice Page
+
+![team-page](./screenshots/team.png)
+
+### :
+
+- **Task Management**: Assign tasks to team members, set deadlines, and track progress.
+- **Collaboration**: Comment on tasks and projects, and communicate with team members.
+- **Notifications**: Receive notifications for task updates and deadlines.
+
+### Installation Steps
+
+1. Clone the repository
+   ```sh
+   git clone https://github.com/yivvm/Project-Dashboard.git
+   ```
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +111,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # Project-Dashboard
